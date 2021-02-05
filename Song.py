@@ -1,4 +1,4 @@
-import Song from Piano
+from Piano import Song 
 
 s = Song()
 s.setTempo(60)
