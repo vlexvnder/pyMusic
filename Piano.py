@@ -107,8 +107,4 @@ s.addNote(Note(17, "D4",1))
 
 
 
-
-
-
-playback.play(s.compileSong())
-
+(s.compileSong()).export("s1.mp3", format="mp3")
