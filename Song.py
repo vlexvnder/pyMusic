@@ -1,4 +1,5 @@
 from Piano import Song 
+from Note import Note
 
 s = Song()
 s.setTempo(60)
