@@ -1,5 +1,5 @@
 from Piano import Song 
-from Note import Note
+from Piano import Note
 
 s = Song()
 s.setTempo(60)
@@ -23,16 +23,4 @@ s.addNote(Note(15, "D4",1))
 s.addNote(Note(16, "S", 3))
 s.addNote(Note(17, "D4",1))
 
-
-
-
-
-
-
-
-
-
-
-
-
-(s.compileSong()).export("s1.mp3", format="mp3")
+s.compileSong().export("s1.mp3", format="mp3")
